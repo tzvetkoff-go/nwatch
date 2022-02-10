@@ -1,0 +1,9 @@
+github.com/fsnotify/fsnotify v1.5.1 h1:mZcQUHVQUQWoPXXtuf9yuEXKudkV2sx1E06UadKWpgI=
+github.com/fsnotify/fsnotify v1.5.1/go.mod h1:T3375wBYaZdLLcVNkcVbzGHY7f1l/uK5T5Ai1i3InKU=
+github.com/tzvetkoff-go/fnmatch v0.0.0-20220210160758-879480b5e662 h1:8V/L04n475+FwC8Nt+FgJxgUOMFr2leI+ZVUevkTRQU=
+github.com/tzvetkoff-go/fnmatch v0.0.0-20220210160758-879480b5e662/go.mod h1:iqVyINO86ItLjWSIUosYiSnW/KK+TL3ZUtouysxLass=
+github.com/tzvetkoff-go/optparse v0.0.0-20220208065226-bfc7550e31df h1:I9jIY5chK3vaUS4RWUyD/aZMt8yULWAWTnGJxhJHnIM=
+github.com/tzvetkoff-go/optparse v0.0.0-20220208065226-bfc7550e31df/go.mod h1:Dx9SiqlayuubxXMp8FXQkbRvq1IiG8uL71jx5yuvxEE=
+golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/sys v0.0.0-20220207234003-57398862261d h1:Bm7BNOQt2Qv7ZqysjeLjgCBanX+88Z/OtdvsrEv1Djc=
+golang.org/x/sys v0.0.0-20220207234003-57398862261d/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
