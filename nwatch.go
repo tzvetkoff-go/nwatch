@@ -21,6 +21,9 @@ import (
 	"github.com/tzvetkoff-go/nwatch/pkg/watcher"
 )
 
+// version ...
+var version = "(dev)"
+
 // usage ...
 func usage(f io.Writer, name string) {
 	fmt.Fprintln(f, "Usage:")
@@ -207,7 +210,7 @@ func main() {
 
 	// Version
 	if *pVersion {
-		fmt.Println("0.1.0")
+		fmt.Println(version)
 		os.Exit(0)
 	}
 

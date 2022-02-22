@@ -4,11 +4,14 @@ A simple watch/build/run daemon.
 
 Originally made to watch and rebuild Go projects.
 
-
 ## Installation
 
+Download a prebuilt binary from the [releases](https://github.com/tzvetkoff-go/nwatch/releases) page or build it yourself:
+
 ``` bash
-go install github.com/tzvetkoff-go/nwatch
+git clone https://github.com/tzvetkoff-go/nwatch.git
+cd nwatch
+make install
 ```
 
 ## Common usage
@@ -24,8 +27,7 @@ go install github.com/tzvetkoff-go/nwatch
 | `-i IGN`     | `--ignore=IGN`       | File patterns to ignore                      | `-i '*-go-tmp-umask'`    |
 | `-b BLD`     | `--build=BLD`        | Build command to execute                     | `-b 'go build'`          |
 | `-s SRV`     | `--server=SRV`       | Server command to run after successful build | `-s './webserver start'` |
-| `-w ERR`     | `--error-server=ERR` | Web server address in case of an error       |  `-w 0.0.0.0:1337`       |
-
+| `-w ERR`     | `--error-server=ERR` | Web server address in case of an error       | `-w 0.0.0.0:1337`        |
 
 ## Pattern matching
 

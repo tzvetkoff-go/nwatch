@@ -3,6 +3,7 @@ package watcher
 import (
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 
 	"github.com/fsnotify/fsnotify"
@@ -47,7 +48,7 @@ func (w *Watcher) Add(dir string) {
 
 		if info.IsDir() {
 			for _, exclude := range w.Excludes {
-				if path == exclude {
+				if path == exclude || strings.HasPrefix(path, exclude+"/") {
 					return nil
 				}
 			}
